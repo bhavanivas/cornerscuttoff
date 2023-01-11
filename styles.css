@@ -6,6 +6,7 @@ body {
   color: #FF3500;
   font-family: 'Spectral', serif;
   font-size: 1.0rem;
+  min-height: 100vh;
 }
 body a {
   font-weight: 600;
