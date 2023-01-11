@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background-image: linear-gradient(to bottom right, #F8C183, #CDCEF7);
+  color: #FF3500;
+  font-family: 'Spectral', serif;
+  font-size: 1.0rem;
+}
+body a {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+h1 {
+  font-family: memoriam-inline-pro, serif;
+  font-size: 4.5rem;
+  color: #DCE693;
+  filter: drop-shadow(4px 3px 1px #1E00FF);
+ 
+}
+h2 {
+  font-family: gothicus, serif;
+  font-size: 3.0rem;
+  color: #00FFDB;
+  filter: drop-shadow(4px 3px 1px #FF3500);
+  text-align: right;
+}
+p {
+  clear: both;
+}
+a {
+  color: #FF00D5;
+  text-decoration: none;
+}
+a:hover {
+  filter: drop-shadow(2px 1px 0px #EAFF00);
+}
+.description:first-letter {
+  font-family: gothicus, serif;
+  font-size: 2.5rem;
+  padding-right: 2px;
+  color: #FF3500;
+}
+.description {
+  clear: both;
+  padding-left: 25%;
+}
+.more {
+  padding-left: 85%;
+}
+.tab {
+  overflow: hidden;
+  width: 20%;
+  background-image: linear-gradient(to top right, #A9AA74, #FFB395);
+  position: sticky;
+  top: 100px;
+}
+.tab button {
+  background-color: transparent;
+  float: left;
+  cursor: pointer;
+  color: #FF00D5;
+  font-family: 'spectral', serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  border: 1px solid #00FFDB;
+}
+.tab button:hover {
+  background-image: linear-gradient(to top, #F8C183, #CDCEF7);
+}
+.tab button.active {
+  background-color: #6C4383;
+}
+.tab content {
+  display: none;
+}
+.content {
+  padding-left: 25%;
+  padding-right: 10%;
+}
+.slogan {
+  text-align: center;
+  font-weight: 800;
+}
+.skinny {
+  width: 25px;
+  padding-left: 45%;
+}
+Gothicus Regular {
+  font-family: gothicus, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+Memoriam Pro Inline Regular { 
+  font-family: memoriam-inline-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}   
