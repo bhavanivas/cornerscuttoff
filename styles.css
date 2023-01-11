@@ -45,6 +45,7 @@ a:hover {
 .description {
   clear: both;
   padding-left: 25%;
+  max-width: 60%;
 }
 .more {
   padding-left: 85%;
