@@ -103,6 +103,11 @@ img {
   border: .5px solid #00FFDB;
   height: 30vh;
   margin: 5rem;
+  transition: transform .3s;
+}
+img:hover {
+  transform: scale(4); 
+  transform-origin: center;
 }
 .loose {
   filter: none;
