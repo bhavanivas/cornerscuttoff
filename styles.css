@@ -102,4 +102,5 @@ img.projects {
   filter: drop-shadow(4px 3px 1px #FF3500);
   border: .5px solid #00FFDB;
   height: 10vh;
+  padding: 3rem;
 }
