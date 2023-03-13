@@ -113,4 +113,8 @@ img:hover {
   filter: none;
   border: none;
   max-width: 200px;
+  height: inherit;
+}
+.loose:hover {
+  transform:none;
 }
