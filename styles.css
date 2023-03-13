@@ -112,4 +112,5 @@ img:hover {
 .loose {
   filter: none;
   border: none;
+  max-width: 200px;
 }
