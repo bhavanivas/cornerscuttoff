@@ -113,6 +113,7 @@ img:hover {
   filter: none;
   border: none;
   max-width: 200px;
+  margin: 0rem;
 }
 .loose:hover {
   transform:none;
