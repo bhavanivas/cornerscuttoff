@@ -106,14 +106,13 @@ img {
   transition: transform .3s;
 }
 img:hover {
-  transform: scale(4); 
+  transform: scale(2); 
   transform-origin: center;
 }
 .loose {
   filter: none;
   border: none;
   max-width: 200px;
-  height: inherit;
 }
 .loose:hover {
   transform:none;
