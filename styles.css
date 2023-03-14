@@ -109,6 +109,7 @@ img {
 img:hover {
   transform: scale(2); 
   transform-origin: center;
+  z-index: 100;
 }
 .loose {
   filter: none;
