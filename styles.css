@@ -99,7 +99,7 @@ Memoriam Pro Inline Regular {
   font-weight: 400;
   font-style: normal;
 }   
-img {
+.projects img {
   filter: drop-shadow(4px 3px 1px #FF3500);
   border: .5px solid #00FFDB;
   height: 30vh;
@@ -107,7 +107,7 @@ img {
   transition: transform .3s;
   z-index: 10;
 }
-img:hover {
+.projects img:hover {
   transform: scale(2); 
   transform-origin: center;
   z-index: 100;
