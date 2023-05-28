@@ -24,7 +24,7 @@ h2 {
   font-size: 3.0rem;
   color: #00FFDB;
   filter: drop-shadow(4px 3px 1px #FF3500);
-  text-align: right;
+  text-align: left;
 }
 p {
   clear: both;
